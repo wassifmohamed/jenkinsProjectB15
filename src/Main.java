@@ -7,6 +7,10 @@ public class Main {
             Thread.sleep(1000);
 
         }
+        System.out.println("=========================");
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        cars[0] = "Ford";
+        System.out.println(cars[0]);
 
 
     }
